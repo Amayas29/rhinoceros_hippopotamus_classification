@@ -1,0 +1,46 @@
+@font-face {
+  font-family: TextFont;
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+* {
+  font-family: TextFont;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--font-color);
+  overflow: hidden;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  font-size: 1.125rem;
+  padding: 0.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  color: var(--text-color);
+  background-color: var(--font-color);
+  border: 1px solid var(--text-color);
+}
+
+:root {
+  --font-color: #caf0f8;
+  --panel-color: #00b4d8;
+  --text-color: #26272c;
+  --gray-color: black;
+}
